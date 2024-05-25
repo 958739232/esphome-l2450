@@ -63,7 +63,7 @@ namespace esphome::ld2450
         {
             target_count += contains_target(target);
         }
-        allTargetCount=contains_target+allTargetCount;
+        allTargetCount=target_count+allTargetCount;
         target_count=allTargetCount;
 
 #ifdef USE_BINARY_SENSOR
